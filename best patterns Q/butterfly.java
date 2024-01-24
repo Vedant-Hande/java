@@ -20,7 +20,7 @@ public class butterfly {
             }
             System.out.println();
         }
-        // 
+        
         for (i = n; i >= 1; i--) {
             // 1st part
             for (j = 1; j <= i; j++) {

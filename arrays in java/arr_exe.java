@@ -13,7 +13,7 @@ public class arr_exe {
         }
 
         // output
-        for (int i = 0; i < names.length; i++) {
+        for (int i = 0; i < size; i++) {
             System.out.println("name " + (i + 1) + " is : " + names[i]);
         }
         sc.close();

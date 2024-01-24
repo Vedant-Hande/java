@@ -6,7 +6,7 @@ public class hollow_rec {
         for (i = 1; i <= n; i++) {
             // inner loop column
             for (j = 1; j <= m; j++) {
-                if (i == 1 || j == 1 || i == n || j == m) {
+                if (i == 1 || i == n ) {
                     System.out.print("*");
                 } else {
                     System.out.print(" ");
@@ -16,3 +16,4 @@ public class hollow_rec {
         }
     }
 }
+//sarthak machhindra hande sam8888*
