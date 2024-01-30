@@ -1,6 +1,6 @@
- class rectangle_using_2 {
+ class rectangle_using_2num{
     int l, b;
-    rectangle_using_2() {
+    rectangle_using_2num() {
         l = 135;
         b = 12;
     }
@@ -13,7 +13,7 @@
 public class rectangle_using_2Class {
 
     public static void main(String[] args) {
-        rectangle_using_2 rect1 = new rectangle_using_2();
+        rectangle_using_2num rect1 = new rectangle_using_2num();
         rect1.getdata();
 
     }

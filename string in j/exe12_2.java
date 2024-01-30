@@ -4,7 +4,7 @@ public class exe12_2 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("enter your friend name : ");
-        String name = sc.next();
+        String name = sc.nextLine();
         String result = "";
         for (int i = 0; i < name.length(); i++) {
             if (name.charAt(i) == ' ') {

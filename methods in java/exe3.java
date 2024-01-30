@@ -4,11 +4,14 @@ import java.util.Scanner;
 
 public class exe3 {
 
-    public static void printgreater(int x, int y) {
+    public static int printgreater(int x, int y) {
         if (x > y) {
-            System.out.println(x + " is greater ");
+            // System.out.println(x + " is greater ");
+            return x;
         } else {
-            System.out.println(y + " is greater ");
+            return y;
+
+            // System.out.println(y + " is greater ");
         }
     }
 
@@ -18,7 +21,7 @@ public class exe3 {
         System.out.println("enter the numbers : ");
         a = sc.nextInt();
         b = sc.nextInt();
-        printgreater(a, b);
+        System.out.println(printgreater(a, b));
         sc.close();
     }
 }
