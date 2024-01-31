@@ -1,5 +1,6 @@
- class rectangle_using_2num{
+class rectangle_using_2num {
     int l, b;
+
     rectangle_using_2num() {
         l = 135;
         b = 12;

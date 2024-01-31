@@ -20,6 +20,14 @@ public class string_buldear_1 {
         str.delete(4, 5);
         System.out.println(str);
 
+        str.replace(0, 5, "sarthak");
+        System.out.println(str);
+        System.out.println();
+        
+        str.reverse();
+        System.out.println(str);
+        System.out.println();
+
         // append fun
         StringBuilder sb = new StringBuilder("t");
         sb.append('o');
