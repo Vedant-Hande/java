@@ -5,7 +5,7 @@ public class number_2d {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the size of 2d array : \n rows : ");
         int rows = sc.nextInt();
-        //System.out.print("columns : ");
+        // System.out.print("columns : ");
         int column = sc.nextInt();
         int number[][] = new int[rows][column];
 

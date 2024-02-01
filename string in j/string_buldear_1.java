@@ -1,9 +1,12 @@
-import java.util.Scanner;
+
+import java.util.*;
 
 public class string_buldear_1 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         StringBuilder str = new StringBuilder("vedant");
+        // str = r.readLine();
+
         System.out.println(str);
         System.out.println(str.charAt(0));
 
@@ -23,7 +26,7 @@ public class string_buldear_1 {
         str.replace(0, 5, "sarthak");
         System.out.println(str);
         System.out.println();
-        
+
         str.reverse();
         System.out.println(str);
         System.out.println();

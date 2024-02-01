@@ -19,7 +19,7 @@ class student {
 
 public class nested_cons {
     public static void main(String[] args) {
-        student s1 = new student(10, 20);
+         student s1 = new student(10, 20); 
         s1.show();
     }
 }
