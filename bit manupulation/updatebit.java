@@ -17,7 +17,7 @@ public class updatebit {
                 break;
                 /*
                  * bit mask = 1<<1 { 0001<<1 }
-                 * bit mask = 0010 1000 |0101 =1101
+                 * bit mask = 0010  
                  * OR = 0010 | 0101 { 5 }
                  * result = 0 1 1 1 { 7 }
                  * 3 2 1 0
