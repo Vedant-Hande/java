@@ -1,10 +1,8 @@
 
 // package inheritance pr;
 import java.util.*;
-
 class student {
     Scanner sc = new Scanner(System.in);
-
     int id;
 
     void setdata() {
@@ -32,7 +30,6 @@ class single extends student {
 
     }
 }
-
 class multilevel extends single {
     public static void main(String[] args) {
         multilevel s1 = new multilevel();

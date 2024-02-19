@@ -1,9 +1,7 @@
 
 import java.util.*;
-
 class student {
     Scanner sc = new Scanner(System.in);
-
     int id;
 
     void setdata() {
