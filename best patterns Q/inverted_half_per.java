@@ -1,4 +1,4 @@
-public class inverted_half_per {
+ class inverted_half_per {
     public static void main(String[] args) {
         int n = 4;
         int i, j;
