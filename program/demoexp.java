@@ -1,6 +1,6 @@
 public class demoexp {
     public static void main(String[] args) {
-        int a = 1;
+        int a = 100;
         int b = 0;
         try {
             System.out.println(a / b);
