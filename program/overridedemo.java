@@ -1,5 +1,5 @@
 class phone {
-    void greet() {
+    void music() {
         System.out.println("hye i am the method of A class");
     }
 
@@ -9,21 +9,20 @@ class phone {
 }
 
 class smartphone extends phone {
-    void music() {
-        System.out.println("hye i am the method of an the B class");
-    }
+    // super.music();
 
     @Override
     void on() {
         System.out.println("turing on the smartphone ");
     }
+
 }
 
 public class overridedemo {
     public static void main(String[] args) {
         phone obj = new smartphone();
         // smartphone obj1 = new phone(); not allowed
-        obj.greet();
+        obj.music();
         obj.on();
         System.out.println("music meth of sp class : \n");
         smartphone sp = new smartphone();
