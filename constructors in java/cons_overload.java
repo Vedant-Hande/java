@@ -21,6 +21,9 @@ class student {
     void show() {
         System.out.println("roll :" + roll + " name : " + name + " per : " + per);
     }
+     protected void finalize(){
+
+    }
 }
 
 public class cons_overload {
