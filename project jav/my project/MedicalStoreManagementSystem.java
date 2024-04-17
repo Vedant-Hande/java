@@ -58,7 +58,7 @@ class MedicalStore extends MedicalStoreManagementSystem {
 
         Medicine medicine = new Medicine(name, price, tax, discount);
         addMedicine(medicine);
-        System.out.println("Medicine added successfully.");
+        System.out.println("Medicine added successfully!");
 
     }
 
@@ -74,7 +74,7 @@ class MedicalStore extends MedicalStoreManagementSystem {
 
             double totalBill = selectedMedicine.calculateTotalPrice() * quantity;
             System.out.println("Total Bill:in $  " + totalBill);
-            System.out.println("Total Bill:in RS  " + (totalBill - 82 / 2.3));
+            System.out.println("Total Bill:in RS  " + (totalBill + 42 * 2.3));
         } else {
             System.out.println("Invalid medicine index.");
         }

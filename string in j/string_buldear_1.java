@@ -1,36 +1,26 @@
-
 import java.util.*;
-
 public class string_buldear_1 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         StringBuilder str = new StringBuilder("vedant");
         // str = r.readLine();
-
         System.out.println(str);
         System.out.println(str.charAt(0));
-
         str.setCharAt(0, 's'); // set char 's'
         System.out.println(str);
-
         str.insert(4, 'h'); // insert the char h at the position num 4
         System.out.println(str);
-
         str.setCharAt(0, 'v'); // again set the char v to the position num 0
         System.out.println(str);
-
         // delete
         str.delete(4, 5);
         System.out.println(str);
-
         str.replace(0, 5, "sarthak");
         System.out.println(str);
         System.out.println();
-
         str.reverse();
         System.out.println(str);
         System.out.println();
-
         // append fun
         StringBuilder sb = new StringBuilder("t");
         sb.append('o');
@@ -38,10 +28,8 @@ public class string_buldear_1 {
         sb.append('y');
         System.out.println(sb);
         System.out.println(sb.length());
-
         // reverse fun
         StringBuilder sb1 = new StringBuilder("vedant");
-
         for (int i = 0; i <= sb1.length() / 2; i++) {
             int front = i;
             int back = sb1.length() - 1 - i;
@@ -51,10 +39,8 @@ public class string_buldear_1 {
             bchar = sb1.charAt(back);
             sb1.setCharAt(back, fchar);
             sb1.setCharAt(front, bchar);
-
         }
         System.out.println("rev str : " + sb1);
         sc.close();
-
     }
 }

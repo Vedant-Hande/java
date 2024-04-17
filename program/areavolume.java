@@ -1,4 +1,4 @@
-
+import java.util.*;
 class area {
     // int len,width;
     int areaa(int len, int wid) {

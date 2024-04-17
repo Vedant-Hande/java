@@ -7,8 +7,11 @@ class employee {
     float salary;
 
     void setdata() {
+        System.out.println("enter emp id");
         emp_id = sc.nextInt();
+        System.out.println("enter emp name");
         name = sc.next();
+        System.out.println("enter emp salary");
         salary = sc.nextFloat();
 
     }
@@ -22,17 +25,20 @@ class employee {
 
 class arr_obj extends employee {
     public static void main(String[] args) {
-        employee[] e = new employee[3];
-        for (int i = 0; i < 3; i++) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter the size of array");
+        int size = sc.nextInt();
+        employee[] e = new employee[size];
+        for (int i = 0; i < size; i++) {
             e[i] = new employee();
             e[i].setdata();
-
         }
-        for (int i = 0; i < 3; i++) {
+        for (int i = 0; i < size; i++) {
             e[i].getdata();
 
         }
 
+        sc.close();
     }
 
 }
