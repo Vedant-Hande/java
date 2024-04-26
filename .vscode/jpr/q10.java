@@ -7,21 +7,24 @@ class q10 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int marks, totalMarks = 500;
-        double percentage;
+    //    percentage;
 
         System.out.println("Enter marks obtained (out of 500): ");
         marks = sc.nextInt();
 
-        percentage = (marks / totalMarks) * 100;
+        double  percentage = (marks / totalMarks) * 100;
 
         int result;
-        if (percentage >= 80) {
+        if (marks > 500) {
+            System.out.println("invalid!");
+            result = 6;
+        } else if (marks > 400) {
             result = 1; // Distinction
-        } else if (percentage >= 60) {
+        } else if (marks > 350) {
             result = 2; // First Class
-        } else if (percentage >= 50) {
+        } else if (marks > 250) {
             result = 3; // Second Class
-        } else if (percentage >= 40) {
+        } else if (marks > 200) {
             result = 4; // Pass
         } else {
             result = 5; // Fail

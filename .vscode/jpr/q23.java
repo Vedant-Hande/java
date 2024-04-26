@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class q23 {
+class single {
     Scanner sc = new Scanner(System.in);
     int roll_no;
     String name;
@@ -18,10 +18,10 @@ class q23 {
     }
 }
 
-public class singlelevelinheri extends student {
+public class q23 extends single {
     public static void main(String[] args) {
-        singlelevelinheri s = new singlelevelinheri();
-        s.acceptdata();
-        s.displaydata();
+        q23 q = new q23();
+        q.displaydata();
+        q.acceptdata();
     }
 }
