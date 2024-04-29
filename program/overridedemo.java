@@ -1,6 +1,8 @@
+package program;
+
 class phone {
     void music() {
-        System.out.println("hye i am the method of A class");
+        System.out.println("hye am the method of A class");
     }
 
     void on() {

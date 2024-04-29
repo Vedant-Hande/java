@@ -1,3 +1,4 @@
+package program;
 // Interface declaration: by first user  
 interface Drawable {
     void draw();

@@ -9,7 +9,6 @@ class MultithreadingDemo implements Runnable {
         }
     }
 }
-
 // Main Class
 class Multithread1 {
 

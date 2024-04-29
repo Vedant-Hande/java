@@ -6,10 +6,11 @@ public class arr_exe {
         Scanner sc = new Scanner(System.in);
         int size = sc.nextInt();
         String names[] = new String[size];
+        String names1[] = new String[size];
 
         // input
         for (int i = 0; i < size; i++) {
-            names[i] = sc.next();
+            names1[i] = names[i];
         }
 
         // output
@@ -19,3 +20,4 @@ public class arr_exe {
         sc.close();
     }
 }
+int per = (m1+m2)*100/2

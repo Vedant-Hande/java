@@ -1,7 +1,7 @@
 import java.io.*;
-import java.util.*;
-import java.awt.*;
-import java.applet.*;
+// import java.util.*;
+// import java.awt.*;
+// import java.applet.*;
 
 interface c_area {
     public void Accept();
