@@ -2,7 +2,7 @@
 public class marks {
     public static void main(String[] args) {
         int marks[] = new int[3];
-        int arr[] = new int [3];
+        // int arr[] = new int [3];
         try {
 
             marks[0] = 89;

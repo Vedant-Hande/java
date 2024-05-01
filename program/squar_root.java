@@ -1,4 +1,4 @@
-package program;
+
 
 class squar_root {
     public static void main(String args[]) {

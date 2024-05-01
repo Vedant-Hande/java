@@ -1,4 +1,4 @@
-package program;
+
 class MultithreadingDemo implements Runnable {
     public void run() {
         try {

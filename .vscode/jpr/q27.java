@@ -11,6 +11,7 @@ public class q27 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String pass;
+        sc.close();
         try {
 
             System.out.println("enter pass ");
@@ -29,6 +30,5 @@ public class q27 {
         } finally {
             System.out.println("rest of the code ");
         }
-        sc.close();
     }
 }

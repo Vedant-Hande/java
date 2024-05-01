@@ -20,4 +20,4 @@ public class arr_exe {
         sc.close();
     }
 }
-int per = (m1+m2)*100/2
+// int per = (m1+m2)*100/2

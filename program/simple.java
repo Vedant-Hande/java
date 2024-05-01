@@ -1,5 +1,5 @@
-package program;
+// package program;
 
-public class simple {
+// public class simple {
     
-}
+// }

@@ -1,4 +1,4 @@
-import java.util.*;
+// import java.util.*;
 
 public class ThreadPriorityExample extends Thread {
     public void run() {

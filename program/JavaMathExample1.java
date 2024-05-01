@@ -1,5 +1,4 @@
 
-package program;
 public class JavaMathExample1 {
     public static void main(String[] args) {
         double x = 28;

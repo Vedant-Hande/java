@@ -1,6 +1,4 @@
 
-package program;
-
 class fibo {
     public static void main(String[] args) {
         int f1 = 0, f2 = 1, f3;

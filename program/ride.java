@@ -1,4 +1,4 @@
-package program;
+
 // the simple prog  {overriding}
 class Vehicle {
     int maxSpeed = 120;

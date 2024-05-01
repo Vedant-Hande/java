@@ -15,6 +15,7 @@ public class file_cpy {
                 //  foStream.Write(num);
 
             }
+            System.out.println(num);
             fiStream.close();
             foStream.close();
             System.out.println("copied");

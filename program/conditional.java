@@ -1,4 +1,4 @@
-package program;
+// package p;
 import java.util.*;
 
 public class conditional {

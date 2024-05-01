@@ -6,13 +6,13 @@ import java.util.Scanner;
 class q10 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int marks, totalMarks = 500;
-    //    percentage;
+        int marks;
+        // percentage;
 
         System.out.println("Enter marks obtained (out of 500): ");
         marks = sc.nextInt();
 
-        double  percentage = (marks / totalMarks) * 100;
+        // double percentage = (marks / totalMarks) * 100;
 
         int result;
         if (marks > 500) {

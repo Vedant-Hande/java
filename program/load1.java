@@ -1,4 +1,4 @@
-package program;
+
 import java.util.*;
 class students {
     Scanner sc = new Scanner(System.in);

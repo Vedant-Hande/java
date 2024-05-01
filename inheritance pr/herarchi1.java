@@ -26,16 +26,16 @@ class demo extends example {
     void putmarks() {
         System.out.println("marks=" + marks);
     }
-}
 
-class herarchi1 extends example {
-    public static void main(String[] args) {
-        demo d = new demo();
-        herarchi1 h = new herarchi1();
+    class herarchi1 extends example {
+        public static void main(String[] args) {
+            demo d = new demo();
+            // herarchi1 h = new herarchi1();
 
-        h.getroll();
-        d.getmarks();
-        h.putroll();
-        d.putmarks();
+            // h.getroll();
+            d.getmarks();
+            // h.putroll();
+            d.putmarks();
+        }
     }
 }

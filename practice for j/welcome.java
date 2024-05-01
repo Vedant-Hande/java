@@ -1,9 +1,9 @@
-import new_pack.*;
+// package new_pack;
 
-public class welcome {
-    public static void main(String[] args) {
-        demopack d = new demopack();
-        d.show();
+// public class welcome {
+//     public static void main(String[] args) {
+//         demopack d = new demopack();
+//         d.show();
 
-    }
-}
+//     }
+// }

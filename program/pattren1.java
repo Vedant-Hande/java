@@ -1,4 +1,4 @@
-package program;
+
 public class pattren1 {
     public static void main(String[] args) {
         byte i, j;
