@@ -2,6 +2,10 @@
 // the simple prog  {overriding}
 class Vehicle {
     int maxSpeed = 120;
+
+    void display() {
+        System.out.println(maxSpeed);
+    }
 }
 
 class Car extends Vehicle {
@@ -9,6 +13,7 @@ class Car extends Vehicle {
 
     void display() {
         System.out.println("Maximum Speed: " + super.maxSpeed);
+        super.display();
     }
 }
 

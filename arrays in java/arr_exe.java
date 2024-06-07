@@ -5,7 +5,12 @@ public class arr_exe {
     public static void main(String args[]) {
         Scanner sc = new Scanner(System.in);
         int size = sc.nextInt();
-        String names[] = new String[size];
+
+        String names[][] = new String[5][6];
+        // syntax--
+        // datatype array_name [][]= new datatype [size][size];
+
+
         String[] names1 = new String[size];
 
         // input
