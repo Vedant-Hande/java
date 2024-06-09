@@ -15,7 +15,7 @@ public class arr_exe {
 
         // input
         for (int i = 0; i < size; i++) {
-            names1[i] = names[i];
+            names1[i] = names1[i];
         }
 
         // output
