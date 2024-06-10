@@ -2,8 +2,8 @@
 
 import java.util.Scanner;
 
-public class exe2 {
-    public static int sum_of_odd_num(int num) {
+class fun_c {
+    int sum_of_odd_num(int num) {
         int i, sum = 0;
         for (i = 1; i <= num; i++) {
             if (i % 2 == 1) {
@@ -12,12 +12,15 @@ public class exe2 {
         }
         return sum;
     }
+}
 
+public class exe2 extends fun_c {
     public static void main(String args[]) {
         Scanner sc = new Scanner(System.in);
+        exe2 s1 = new exe2();
         int n;
         n = sc.nextInt();
-        System.out.println(" sum of all odd numbers : " + sum_of_odd_num(n));
+        System.out.println(" sum of all odd numbers :  " + s1.sum_of_odd_num(n));
         sc.close();
     }
 }
