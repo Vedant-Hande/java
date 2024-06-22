@@ -12,7 +12,7 @@ class student {
         return a;
     }
 
-    void show() {
+ public static void show() {
         System.out.println("area is : " + area());
     }
 }
@@ -20,6 +20,6 @@ class student {
 public class nested_cons {
     public static void main(String[] args) {
          student s1 = new student(10, 20); 
-        s1.show();
+        show();
     }
 }
